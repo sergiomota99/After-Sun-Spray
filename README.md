@@ -92,13 +92,13 @@
 
 
     section {
-      padding: 1rem 2rem;
-      max-width: 80vw;
-      margin: auto;
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.7s ease;
-    }
+  padding: 1rem 2rem;
+  width: 100%;
+  margin: auto;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+}
 
     section.visible {
       opacity: 1;
@@ -456,10 +456,10 @@
       <li class="fade-in">Fórmula 100% natural e caseira, sem químicos agressivos</li>
       <li class="fade-in">Alivia a sensação de ardor</li>
     </ul>
-  </section>
+  </on>
   
 
-<section id="benefits" class="fade-in">
+<on id="benefits" class="fade-in">
   <h2 class="fade-in">Aromas</h2>
   <div class="grid">     
     <div class="card" onclick="openImage('lavanda.jpg')">
@@ -503,9 +503,9 @@
     </div>
     </div>
   </div>
-</section>
+</on>
 
-<section id="formulacao" class="fade-in">
+<on id="formulacao" class="fade-in">
     <h2>Constituição do Produto</h2>
     <ul class="ingredientes-list">
       <li>Mel ou açúcar mascavado (amarelo)</li>
@@ -516,10 +516,10 @@
       <li>Óleo de coco fracionado</li>
       <li>Óleo essencial de hortelã, lavanda, camomila e limão</li>
     </ul>
-  </section>
+  </on>
   
 
-<section id="ideal-para" class="fade-in">
+<on id="ideal-para" class="fade-in">
     <h2>Feito para quem valoriza o essencial</h2>
     <div class="ideal-grid">
       <div class="ideal-item">
@@ -535,13 +535,13 @@
         <p>Produzido com <strong>carinho e consciência ecológica</strong></p>
       </div>
     </div>
-  </section>
+  </on>
 
-  <section id="cta-compra">
+  <on id="cta-compra">
     <h2 class="fade-in">Dá à tua pele o carinho que ela merece</h2>
     <p class="fade-in">Descobre o poder do AfterSun Spray Caseiro — o teu aliado natural nos dias de sol!</p>
     <a href="javascript:void(0)" onclick="abrirModal()" class="cta-button fade-in">Quero experimentar</a>
-  </section>
+  </on>
 
   <div id="modal-contacto" class="modal">
     <div class="modal-conteudo">
@@ -560,7 +560,7 @@
   
     
 
-<section id="faq" class="fade-in">
+<on id="faq" class="fade-in">
   <h2 class="fade-in">Perguntas Frequentes</h2>
   <div class="faq-item">
     <div class="faq-question">Como usar?</div>
@@ -574,7 +574,7 @@
     <div class="faq-question">Pode ser usado por crianças?</div>
     <div class="faq-answer">Sim, mas sempre sob supervisão de um adulto e evitando o contato com olhos.</div>
   </div>
-</section>
+</on>
 
 <button id="scrollToTopBtn" title="Voltar ao topo">↑</button>
 
@@ -644,16 +644,16 @@
   
 <script>
   // Animação ao rolar
-  const sections = document.querySelectorAll("section");
-  const observer = new IntersectionObserver(entries => {
+  const ons = document.querySelectorAll("on");
+  const observer = new InteronObserver(entries => {
     entries.forEach(entry => {
-      if(entry.isIntersecting){
+      if(entry.isInterng){
         entry.target.classList.add('visible');
       }
     });
   }, { threshold: 0.1 });
 
-  sections.forEach(sec => observer.observe(sec));
+  ons.forEach(sec => observer.observe(sec));
 
   // FAQ interativo
   document.querySelectorAll('.faq-question').forEach(q => {
@@ -680,9 +680,9 @@
 <script>
 // Aplica fade-in a todos os elementos com a classe .fade-in ao fazer scroll
 const fadeEls = document.querySelectorAll('.fade-in');
-const observerFade = new IntersectionObserver(entries => {
+const observerFade = new InteronObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
+    if (entry.isInterng) {
       entry.target.classList.add('visible');
     }
   });
