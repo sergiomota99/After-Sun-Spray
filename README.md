@@ -91,15 +91,6 @@
 }
 
 
-    section {
-  padding: 1rem 2rem;
-  width: 100%;
-  margin: auto;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.7s ease;
-}
-
     section.visible {
       opacity: 1;
       transform: translateY(0);
