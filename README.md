@@ -143,9 +143,9 @@
   background: #fff;
   padding: 1rem;
   margin-top: 0px; /* move a caixa branca para baixo da imagem */
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 0px 0px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  width: 90%;
+  width: 100%;
   z-index: 2;
   position: relative;
 }
