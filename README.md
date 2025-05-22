@@ -143,7 +143,7 @@
   background: #fff;
   padding: 1rem;
   margin-top: 0px; /* move a caixa branca para baixo da imagem */
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 15px 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   width: 100%;
   z-index: 2;
@@ -427,13 +427,11 @@
     <div class="carousel-slide active" style="background-image: url('inicio1.jpg');">
       <div class="hero-content">
         <h1>After Sun Natural</h1>
-        <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
       </div>
     </div>
     <div class="carousel-slide active" style="background-image: url('inicio2.jpg');">
         <div class="hero-content">
           <h1>After Sun Natural</h1>
-          <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
         </div>
       </div>
   </section>
