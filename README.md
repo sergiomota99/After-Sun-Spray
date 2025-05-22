@@ -425,13 +425,13 @@
   <h1>After Sun Spray Caseiro</h1>
   <p>Alívio natural e cuidado profundo para a tua pele após o sol</p>
   <section id="hero-carousel">
-    <div class="carousel-slide active" style="background-image: url('imagens/inicio1.jpg');">
+    <div class="carousel-slide active" style="background-image: url('inicio1.jpg');">
       <div class="hero-content">
         <h1>After Sun Natural</h1>
         <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
       </div>
     </div>
-    <div class="carousel-slide active" style="background-image: url('imagens/inicio2.jpg');">
+    <div class="carousel-slide active" style="background-image: url('inicio2.jpg');">
         <div class="hero-content">
           <h1>After Sun Natural</h1>
           <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
@@ -463,41 +463,41 @@
 <section id="benefits" class="fade-in">
   <h2 class="fade-in">Aromas</h2>
   <div class="grid">     
-    <div class="card" onclick="openImage('imagens/lavanda.jpg')">
+    <div class="card" onclick="openImage('lavanda.jpg')">
       <div class="card-image">
-      <img src="imagens/lavanda.jpg">
+      <img src="lavanda.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Lavanda</h3>
     </div>
     </div>
-    <div class="card" onclick="openImage('imagens/limao.jpg')">
+    <div class="card" onclick="openImage('limao.jpg')">
       <div class="card-image">
-      <img src="imagens/limao.jpg">
+      <img src="limao.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Limão</h3>
       </div>
     </div>
-    <div class="card" onclick="openImage('imagens/neutro.jpg')">
+    <div class="card" onclick="openImage('neutro.jpg')">
         <div class="card-image">
-          <img src="imagens/neutro.jpg" alt="Natural">
+          <img src="neutro.jpg" alt="Natural">
         </div>
         <div class="card-content">
           <h3 align="center">Natural</h3>
         </div>
       </div> 
-    <div class="card" onclick="openImage('imagens/hotelã.jpg')">
+    <div class="card" onclick="openImage('hotelã.jpg')">
         <div class="card-image">
-        <img src="imagens/hotelã.jpg">
+        <img src="hotelã.jpg">
         </div>
         <div class="card-content">
         <h3 align="center">Hortelã</h3>
       </div>
     </div>
-    <div class="card" onclick="openImage('imagens/camomila.jpg')">
+    <div class="card" onclick="openImage('camomila.jpg')">
       <div class="card-image">
-      <img src="imagens/camomila.jpg">
+      <img src="camomila.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Camomila</h3>
@@ -524,15 +524,15 @@
     <h2>Feito para quem valoriza o essencial</h2>
     <div class="ideal-grid">
       <div class="ideal-item">
-        <img src="imagens/natural.svg" alt="Natural" />
+        <img src="natural.svg" alt="Natural" />
         <p>Um cuidado pós-solar <strong>natural e eficaz</strong></p>
       </div>
       <div class="ideal-item">
-        <img src="imagens/ingredientes-seguros.svg" alt="Ingredientes seguros" />
+        <img src="ingredientes-seguros.svg" alt="Ingredientes seguros" />
         <p><strong>Ingredientes simples</strong> que respeitam a tua pele</p>
       </div>
       <div class="ideal-item">
-        <img src="imagens/ecologico.svg" alt="Ecológico" />
+        <img src="ecologico.svg" alt="Ecológico" />
         <p>Produzido com <strong>carinho e consciência ecológica</strong></p>
       </div>
     </div>
