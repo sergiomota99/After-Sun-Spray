@@ -91,6 +91,15 @@
 }
 
 
+    section {
+      padding: 1rem 2rem;
+      max-width: 80vw;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.7s ease;
+    }
+
     section.visible {
       opacity: 1;
       transform: translateY(0);
@@ -415,13 +424,13 @@
   <h1>After Sun Spray Caseiro</h1>
   <p>Alívio natural e cuidado profundo para a tua pele após o sol</p>
   <section id="hero-carousel">
-    <div class="carousel-slide active" style="background-image: url('inicio1.jpg');">
+    <div class="carousel-slide active" style="background-image: url('imagens/inicio1.jpg');">
       <div class="hero-content">
         <h1>After Sun Natural</h1>
         <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
       </div>
     </div>
-    <div class="carousel-slide active" style="background-image: url('inicio2.jpg');">
+    <div class="carousel-slide active" style="background-image: url('imagens/inicio2.jpg');">
         <div class="hero-content">
           <h1>After Sun Natural</h1>
           <a href="#intro1" class="cta-button">Descubra os Benefícios</a>
@@ -447,56 +456,56 @@
       <li class="fade-in">Fórmula 100% natural e caseira, sem químicos agressivos</li>
       <li class="fade-in">Alivia a sensação de ardor</li>
     </ul>
-  </on>
+  </section>
   
 
-<on id="benefits" class="fade-in">
+<section id="benefits" class="fade-in">
   <h2 class="fade-in">Aromas</h2>
   <div class="grid">     
-    <div class="card" onclick="openImage('lavanda.jpg')">
+    <div class="card" onclick="openImage('imagens/lavanda.jpg')">
       <div class="card-image">
-      <img src="lavanda.jpg">
+      <img src="imagens/lavanda.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Lavanda</h3>
     </div>
     </div>
-    <div class="card" onclick="openImage('limao.jpg')">
+    <div class="card" onclick="openImage('imagens/limao.jpg')">
       <div class="card-image">
-      <img src="limao.jpg">
+      <img src="imagens/limao.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Limão</h3>
       </div>
     </div>
-    <div class="card" onclick="openImage('neutro.jpg')">
+    <div class="card" onclick="openImage('imagens/neutro.jpg')">
         <div class="card-image">
-          <img src="neutro.jpg" alt="Natural">
+          <img src="imagens/neutro.jpg" alt="Natural">
         </div>
         <div class="card-content">
           <h3 align="center">Natural</h3>
         </div>
       </div> 
-    <div class="card" onclick="openImage('hotelã.jpg')">
+    <div class="card" onclick="openImage('imagens/hotelã.jpg')">
         <div class="card-image">
-        <img src="hotelã.jpg">
+        <img src="imagens/hotelã.jpg">
         </div>
         <div class="card-content">
         <h3 align="center">Hortelã</h3>
       </div>
     </div>
-    <div class="card" onclick="openImage('camomila.jpg')">
+    <div class="card" onclick="openImage('imagens/camomila.jpg')">
       <div class="card-image">
-      <img src="camomila.jpg">
+      <img src="imagens/camomila.jpg">
       </div>
       <div class="card-content">
       <h3 align="center">Camomila</h3>
     </div>
     </div>
   </div>
-</on>
+</section>
 
-<on id="formulacao" class="fade-in">
+<section id="formulacao" class="fade-in">
     <h2>Constituição do Produto</h2>
     <ul class="ingredientes-list">
       <li>Mel ou açúcar mascavado (amarelo)</li>
@@ -507,32 +516,32 @@
       <li>Óleo de coco fracionado</li>
       <li>Óleo essencial de hortelã, lavanda, camomila e limão</li>
     </ul>
-  </on>
+  </section>
   
 
-<on id="ideal-para" class="fade-in">
+<section id="ideal-para" class="fade-in">
     <h2>Feito para quem valoriza o essencial</h2>
     <div class="ideal-grid">
       <div class="ideal-item">
-        <img src="natural.svg" alt="Natural" />
+        <img src="imagens/natural.svg" alt="Natural" />
         <p>Um cuidado pós-solar <strong>natural e eficaz</strong></p>
       </div>
       <div class="ideal-item">
-        <img src="ingredientes-seguros.svg" alt="Ingredientes seguros" />
+        <img src="imagens/ingredientes-seguros.svg" alt="Ingredientes seguros" />
         <p><strong>Ingredientes simples</strong> que respeitam a tua pele</p>
       </div>
       <div class="ideal-item">
-        <img src="ecologico.svg" alt="Ecológico" />
+        <img src="imagens/ecologico.svg" alt="Ecológico" />
         <p>Produzido com <strong>carinho e consciência ecológica</strong></p>
       </div>
     </div>
-  </on>
+  </section>
 
-  <on id="cta-compra">
+  <section id="cta-compra">
     <h2 class="fade-in">Dá à tua pele o carinho que ela merece</h2>
     <p class="fade-in">Descobre o poder do AfterSun Spray Caseiro — o teu aliado natural nos dias de sol!</p>
     <a href="javascript:void(0)" onclick="abrirModal()" class="cta-button fade-in">Quero experimentar</a>
-  </on>
+  </section>
 
   <div id="modal-contacto" class="modal">
     <div class="modal-conteudo">
@@ -551,7 +560,7 @@
   
     
 
-<on id="faq" class="fade-in">
+<section id="faq" class="fade-in">
   <h2 class="fade-in">Perguntas Frequentes</h2>
   <div class="faq-item">
     <div class="faq-question">Como usar?</div>
@@ -565,7 +574,7 @@
     <div class="faq-question">Pode ser usado por crianças?</div>
     <div class="faq-answer">Sim, mas sempre sob supervisão de um adulto e evitando o contato com olhos.</div>
   </div>
-</on>
+</section>
 
 <button id="scrollToTopBtn" title="Voltar ao topo">↑</button>
 
@@ -635,16 +644,16 @@
   
 <script>
   // Animação ao rolar
-  const ons = document.querySelectorAll("on");
-  const observer = new InteronObserver(entries => {
+  const sections = document.querySelectorAll("section");
+  const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if(entry.isInterng){
+      if(entry.isIntersecting){
         entry.target.classList.add('visible');
       }
     });
   }, { threshold: 0.1 });
 
-  ons.forEach(sec => observer.observe(sec));
+  sections.forEach(sec => observer.observe(sec));
 
   // FAQ interativo
   document.querySelectorAll('.faq-question').forEach(q => {
@@ -671,9 +680,9 @@
 <script>
 // Aplica fade-in a todos os elementos com a classe .fade-in ao fazer scroll
 const fadeEls = document.querySelectorAll('.fade-in');
-const observerFade = new InteronObserver(entries => {
+const observerFade = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isInterng) {
+    if (entry.isIntersecting) {
       entry.target.classList.add('visible');
     }
   });
